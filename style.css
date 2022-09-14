@@ -1,0 +1,86 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+#scene{
+  margin: 0;
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-color: rebeccapurple;
+}
+
+#nav{
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: rebeccapurple;
+  align-items: center;
+  border-bottom: solid 2px white;
+}
+
+.bx-menu{
+  margin-left: 5px;
+  font-size: 40px;
+  color: white;
+}
+
+.bx-menu:hover{
+  transform: scale(1.1);
+  transition: all .5s;
+}
+
+#menu{
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  height: calc(100vh - 60px);
+  position: absolute;
+  border-right: solid 2px white;
+  z-index: 1;
+  margin-left: -100%;
+  background-color: mediumpurple;
+  transition: all .5s;
+  overflow: scroll;
+}
+
+#menu-item-close{
+  display: flex;
+  align-items: center;
+  border-bottom: solid 2px white;
+  padding: 10px;
+  font-weight: 600;
+  color: white;
+}
+
+#menu-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 2px white;
+  padding: 10px;
+  font-weight: 600;
+  color: white;
+}
+
+.bx-x{
+  font-size: 35px;
+  color: white;
+}
+
+.bx-cloud-download{
+  font-size: 28px;
+  color: white;
+}
+
+#titulo{
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  margin-left: 10px;
+}

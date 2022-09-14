@@ -1,0 +1,93 @@
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <script src="script.js" type="text/javascript"></script>
+  <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <title>Modelos 3D</title>
+</head>
+
+<body>
+  
+  <div id="nav">
+    <i class='bx bx-menu' onclick="abrirmenu();"></i>
+    <span id="titulo">MODELOS 3D</span>
+  </div>
+  
+  <div id="menu">
+    
+    <div id="menu-item-close">
+      <i class='bx bx-x' ></i>
+      <span onclick="cerrarmenu();">Cerrar menú</span>
+    </div>
+    
+    <div id="menu-item">
+      <span onclick="cambiaAk47();">Ak-47 3D</span>
+      
+      <a href="3dmodels/ak47.glb" download="ak47.glb"><i class='bx bx-cloud-download'></i></a>
+    </div>
+    
+    <div id="menu-item">
+      <span onclick="cambiaAraña();">Araña 3D</span>
+      
+      <a href="3dmodels/Spider.glb" download="Spider.glb"><i class='bx bx-cloud-download'></i></a>
+    </div>
+    
+    <div id="menu-item">
+      <span onclick="cambiaSniper();">Fusil francotirador 3D</span>
+      
+      <a href="3dmodels/sniper.glb" download="sniper.glb"><i class='bx bx-cloud-download'></i></a>
+    </div>
+    
+    <div id="menu-item">
+      <span onclick="cambiaCubone();">Pokemon Cubone 3D</span>
+      
+      <a href="3dmodels/cubone.glb" download="cubone.glb"><i class='bx bx-cloud-download'></i></a>
+    </div>
+    
+    <div id="menu-item">
+      <span onclick="cambiaPikachu();">Pokemon Pikachu 3D</span>
+      
+      <a href="3dmodels/pikachu.glb" download="pikachu.glb"><i class='bx bx-cloud-download'></i></a>
+    </div>
+    
+    <div id="menu-item">
+      <span onclick="cambiaTelefono();">Teléfono móvil 3D</span>
+      
+      <a href="3dmodels/telefono.glb" download="telefono.glb"><i class='bx bx-cloud-download'></i></a>
+    </div>
+    
+    <div id="menu-item">
+      <span onclick="cambiaTierra();">La Tierra 3D</span>
+      
+      <a href="3dmodels/tierra.glb" download="tierra.glb"><i class='bx bx-cloud-download'></i></a>
+    </div>
+    
+    <div id="menu-item">
+      <span onclick="cambiaDaga();">Daga 3D</span>
+      
+      <a href="3dmodels/daga.glb" download="daga.glb"><i class='bx bx-cloud-download'></i></a>
+    </div>
+    
+    <div id="menu-item">
+      <span onclick="cambiaSwitch();">Nintendo Switch 3D</span>
+      
+      <a href="3dmodels/switch.glb" download="switch.glb"><i class='bx bx-cloud-download'></i></a>
+    </div>
+    
+    <div id="menu-item">
+      <span onclick="cambiaTrex();">T-Rex 3D</span>
+      
+      <a href="3dmodels/trex.glb" download="trex.glb"><i class='bx bx-cloud-download'></i></a>
+    </div>
+    
+  </div>
+  
+  <model-viewer onclick="cerrarmenu();" id="scene" src="3dmodels/ak47.glb" camera-controls auto-rotate shadow-intensity=""></model-viewer>
+</body>
+  
+</html>
