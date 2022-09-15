@@ -65,3 +65,9 @@ function cambiaAraña() {
   document.getElementById("scene").src = "3dmodels/araña.glb";
   document.getElementById("menu").style.marginLeft = "-100%";
 }
+
+function cambiaCaiman() {
+
+  document.getElementById("scene").src = "3dmodels/caiman.glb";
+  document.getElementById("menu").style.marginLeft = "-100%";
+}
