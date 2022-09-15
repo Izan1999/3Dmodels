@@ -6,12 +6,6 @@ function cerrarmenu(){
   document.getElementById("menu").style.marginLeft = "-100%"
 }
 
-function cambiaAraña(){
-  
-  document.getElementById("scene").src = "3dmodels/spider.glb";
-  document.getElementById("menu").style.marginLeft = "-100%";
-}
-
 function cambiaAk47(){
 
   document.getElementById("scene").src = "3dmodels/ak47.glb";
@@ -21,18 +15,6 @@ function cambiaAk47(){
 function cambiaSniper() {
 
   document.getElementById("scene").src = "3dmodels/sniper.glb";
-  document.getElementById("menu").style.marginLeft = "-100%";
-}
-
-function cambiaCubone() {
-
-  document.getElementById("scene").src = "3dmodels/cubone.glb";
-  document.getElementById("menu").style.marginLeft = "-100%";
-}
-
-function cambiaPikachu() {
-
-  document.getElementById("scene").src = "3dmodels/pikachu.glb";
   document.getElementById("menu").style.marginLeft = "-100%";
 }
 
@@ -63,5 +45,23 @@ function cambiaSwitch() {
 function cambiaTrex() {
 
   document.getElementById("scene").src = "3dmodels/trex.glb";
+  document.getElementById("menu").style.marginLeft = "-100%";
+}
+
+function cambiaCasa() {
+
+  document.getElementById("scene").src = "3dmodels/casa.glb";
+  document.getElementById("menu").style.marginLeft = "-100%";
+}
+
+function cambiaDragon() {
+
+  document.getElementById("scene").src = "3dmodels/dragon.glb";
+  document.getElementById("menu").style.marginLeft = "-100%";
+}
+
+function cambiaAraña() {
+
+  document.getElementById("scene").src = "3dmodels/araña.glb";
   document.getElementById("menu").style.marginLeft = "-100%";
 }
